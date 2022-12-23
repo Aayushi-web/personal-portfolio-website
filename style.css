@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #000;
+    width: 200vh;
+}
+.navbar{
+  color: antiquewhite;
+   display: flex;
+ padding: 45px;
+
+}
+.profession{
+ line-height: 2em;  
+    
+}
+.about ul li{
+    color: antiquewhite;
+    display: flex;
+flex-direction:row-reverse ;
+margin-left: 1200px;
+padding: 10px;
+position: sticky;
+}
