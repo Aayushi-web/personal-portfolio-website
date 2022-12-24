@@ -1,26 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Chivo+Mono:wght@200&family=Nerko+One&family=Nunito:ital,wght@1,200&family=Open+Sans&family=PT+Serif:ital,wght@0,700;1,700&family=Roboto+Mono:ital,wght@1,600&display=swap');
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 body{
-    background: #000;
-    width: 200vh;
-}
-.navbar{
-  color: antiquewhite;
-   display: flex;
- padding: 45px;
-
-}
-.profession{
- line-height: 2em;  
-    
-}
-.about ul li{
-    color: antiquewhite;
     display: flex;
-flex-direction:row-reverse ;
-margin-left: 1200px;
-padding: 10px;
-position: sticky;
+    justify-content:flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background-color: rgb(83, 79, 79);
+}
+footer{
+    position: relative;
+    width: 100%;
+    background-color: greenyellow;
+    min-height: 100px;
+    padding:20px 50px;
+
 }
